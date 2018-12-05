@@ -9,3 +9,10 @@ Need to:
 4.  Save hashed text to MySQL server.  
 5.  Do this in Tornado and deploy.  
 6.  Wrap the whole thing in a Docker container.  
+
+TODO. 
+Need to understand more about the hashing required.  
+Need to understand how to run sql queries - update and post - from tornado
+Need to understand how to work with templates in tornado
+Need to understand how to specify the MySQL database in the Dockerfile
+Need to understand how to specify the deployment site in the dockerfile

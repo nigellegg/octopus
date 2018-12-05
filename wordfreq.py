@@ -9,6 +9,12 @@ from tornado import gen, httpclient, ioloop, queues
 base_url = ''
 concurrency = 10
 
+async def get_words_from_url(url):
+    ''' Download the page and parse out the html markup, css, javascript, and links. 
+    Get frequency counts on the words that remain.  
+    Hash the words and load into MySQL database.  
+    '''
+    
 async def main():
     q = queues.Queue()
     start = time.time()
